@@ -1,0 +1,11 @@
+name: 'Obsidian right'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano"]'
+      shield: '["corne_right"]'
+      alphas: '["QWERTY"]'
+      kconfig: '["CONFIG_ZMK_KEYBOARD_NAME=\\\"obsidian\\\"\\nCONFIG_ZMK_POINTING=y\\nCONFIG_ZMK_STUDIO=y\\nCONFIG_ZMK_STUDIO_LOCKING=n"]'
