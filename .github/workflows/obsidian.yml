@@ -11,4 +11,4 @@ jobs:
       board: '["nice_nano"]'
       shield: '["corne_left"]'
       alphas: '["QWERTY"]'
-      kconfig: '["CONFIG_ZMK_KEYBOARD_NAME=\\\"obsidian\\\"","CONFIG_ZMK_POINTING=y","CONFIG_ZMK_STUDIO=y","CONFIG_ZMK_STUDIO_LOCKING=n"]'
+      kconfig: "CONFIG_ZMK_KEYBOARD_NAME=\\\"obsidian\\\"\\nCONFIG_ZMK_POINTING=y\\nCONFIG_ZMK_STUDIO=y\\nCONFIG_ZMK_STUDIO_LOCKING=n"
